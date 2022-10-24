@@ -1,7 +1,7 @@
 public Integer diff(Integer a, Integer b) {
     //code here
 
-    Integer diffe = a - b;
-    Intger tot = Math.abs(diffe);
-    return tot;
+    Integer diffe = Math.abs(a) - Math.abs(b);
+    //Intger tot = Math.abs(diffe);
+    return diffe;
 }
