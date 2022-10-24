@@ -1,10 +1,7 @@
 public String employeeEmail(Map<String, String> employeeIdToEmail, String employeeId) {
 //code here
 //Map<String,String> employeeIdToEmails = new Map<String,String>();    
-employeeIdToEmail.put('6752', 'cooper@corporation.com');
-employeeIdToEmail.put('19228', 'umair@universalcontainers.com');
-employeeIdToEmail.put('4823', 'alicia@acmeenterprises.com');
-String result = employeeEmail(employeeIdToEmail, '4825');
+
  if (employeeIdToEmail.containsKey(employeeId)) {
         return employeeIdToEmail.get(employeeId);
     }
