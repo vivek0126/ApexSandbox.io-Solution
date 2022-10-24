@@ -1,5 +1,10 @@
 public Integer diff(Integer a, Integer b) {
     //code here
-    Integer diffe = a - b;
+
+    if (a > b){
+        Integer diffe = a - b;
+    }else{
+        Integer diffe = b - a;
+    }
     return diffe;
 }
