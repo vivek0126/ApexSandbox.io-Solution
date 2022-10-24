@@ -2,5 +2,6 @@ public Integer diff(Integer a, Integer b) {
     //code here
 
     Integer diffe = a - b;
+    Intger tot = Math.abs(diffe);
     return diffe;
 }
