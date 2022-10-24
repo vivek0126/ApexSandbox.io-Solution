@@ -1,9 +1,12 @@
 public Integer diff(Integer a, Integer b) {
     //code here
 
-    if (a > b){
+    if (a = b){
         Integer diffe = a - b;
-    }else{
+    }else if (a > b){
+        Integer diffe = a - b;
+    }
+    else if(b > a){
         Integer diffe = b - a;
     }
     return diffe;
